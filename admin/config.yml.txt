@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "imagenes"
+public_folder: "/imagenes"
+
+collections:
+  - name: "reseñas"
+    label: "Reseñas de Libros"
+    folder: "reseñas"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Autor", name: "autor", widget: "string" }
+      - { label: "Imagen destacada", name: "imagen", widget: "image" }
+      - { label: "Resumen", name: "resumen", widget: "text" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
