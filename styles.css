@@ -406,7 +406,7 @@ body, html {
 }
 
 .fondo-salmon {
-  background-color: #c972b6; /* Rosa pastel tipo Inspector */
+  background-color: #fff; /* Rosa pastel tipo Inspector */
   background-image: none !important;
   background-size: unset;
   background-position: unset;
@@ -488,4 +488,25 @@ nav.nav-imagenes {
   .bloque-texto p {
     margin-bottom: 3.5em; /* Más espacio aún en pantallas pequeñas */
   }
+}
+
+.reseña-contenido {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #111;
+}
+
+.reseña-contenido p {
+  margin-bottom: 24px; /* espacio visible entre párrafos */
+}
+
+.reseña-contenido img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px 0;
 }
