@@ -1,0 +1,434 @@
+
+body {
+  font-family: sans-serif;
+  background-image: url('imagenes/fondo.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+  
+  header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #00aced;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  article {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .boton-red-social {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .boton-red-social:hover {
+    transform: scale(1.1);
+  }
+
+  .bloque-texto {
+    background-color: rgba(10, 15, 230, 0.85); /* azul intenso con transparencia */
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    color: white;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .ficha-tecnica {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(240, 179, 237, 0.945);
+    border-radius: 10px;
+    text-align: center;
+    color: #222;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-family: Georgia, serif;
+  }
+  
+  .bloque-recomendacion {
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: justify;
+  }
+  
+  .encabezado {
+    background-image: url('../imagenes/tu-imagen.jpg'); /* Cambiá esto según la entrada */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-botones {
+    margin-top: 25px; /* para bajarlos un poco */
+  }
+  
+  .nav-botones a {
+    background-color: rgba(255, 235, 235, 0.15); /* rosa claro transparente */
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin: 0 8px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .nav-botones a:hover {
+    background-color: rgba(255, 235, 235, 0.3); /* un poco más visible al pasar */
+    transform: scale(1.05);
+  }
+  
+
+/* Bloque intermedio (sin fondo, pero con mismo ancho y justificado) */
+.bloque-texto-simple {
+  max-width: 700px;
+  margin: 40px auto;
+  color: #f1f1f1;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.05em;
+}
+
+/* Imagen destacada centrada */
+.imagen-centrada {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.imagen-centrada img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Ficha técnica (autor, año, género) */
+.ficha-tecnica {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  text-align: center;
+  color: #222;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-family: Georgia, serif;
+}
+
+/* Bloque final de recomendación */
+.bloque-recomendacion {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: rgb(20, 20, 20);
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  font-size: 1.1em;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: justify;
+}
+
+.header-minimal {
+  background-color: #3b1f1f;
+  padding: 40px 20px;
+  text-align: center;
+  color: #f5f5f5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+
+.header-minimal h1 {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.header-minimal h1 span {
+  color: #f3d9b1; /* beige cálido tipo crema antigua */
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .header-minimal h1 {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+
+  .nav-botones {
+    margin-top: 15px;
+  }
+
+  .nav-botones a {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  .ficha-tecnica,
+  .bloque-texto,
+  .bloque-recomendacion {
+    padding: 15px;
+    margin: 30px 10px;
+    font-size: 1em;
+  }
+
+  .imagen-centrada img,
+  img {
+    max-width: 100% !important;
+    height: auto;
+  }
+}
+
+body.solo-fondo {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('imagenes/index.jpg'); /* asegurate del nombre exacto */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #b66a6a; /* Rosa similar al fondo */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #b66a6a;
+}
+
+.fondo-inicio {
+  background-image: url('imagenes/Inicio.jpg'); /* Versión vertical para celular */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* Fondo adaptado para PC (pantallas anchas) */
+@media (min-width: 769px) {
+  .fondo-inicio {
+    background-image: url('imagenes/Inicio-pc.jpg'); /* Versión horizontal */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+/* Estilos generales para los botones */
+.boton {
+  position: absolute;
+  width: 200px; /* podés ajustar el tamaño si es necesario */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.boton:hover {
+  transform: scale(1.05);
+}
+
+/* Posiciones de cada botón - AJUSTÁ según tu diseño */
+.boton1 {
+  top: 50%;
+  left: 10%;
+}
+.boton2 {
+  top: 60%;
+  left: 10%;
+}
+.boton3 {
+  top: 70%;
+  left: 10%;
+}
+
+@media (max-width: 768px) {
+  .boton {
+    width: 90px;
+    height: auto;
+  }
+
+  .boton1 {
+    top: 44%;
+    left: 12%;
+    transform: none;
+  }
+
+  .boton2 {
+    top: 52%;
+    left: 12%;
+    transform: none;
+  }
+
+  .boton3 {
+    top: 60%;
+    left: 12%;
+    transform: none;
+  }
+}
+
+.fondo-libros {
+  background-image: url('../imagenes/fondo.png'); /* o fondo.png en celulares */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+/* Contenedor general */
+.contenedor-libros {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Tarjetas individuales */
+.tarjeta-libro {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-libro:hover {
+  transform: translateY(-4px);
+}
+
+.tarjeta-libro h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tarjeta-libro a {
+  text-decoration: none;
+  color: #b0325e;
+  font-weight: bold;
+}
+
+.img-libro {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.fondo-salmon {
+  background-color: #c972b6; /* Rosa pastel tipo Inspector */
+  background-image: none !important;
+  background-size: unset;
+  background-position: unset;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+nav.nav-imagenes {
+  background: none; /* Elimina cualquier fondo */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-imagenes img {
+  width: 100px; /* Ajustá el tamaño a gusto */
+  height: auto;
+  transition: transform 0.2s ease;
+  vertical-align: middle;
+}
+
+.nav-imagenes img:hover {
+  transform: scale(1.05);
+}
