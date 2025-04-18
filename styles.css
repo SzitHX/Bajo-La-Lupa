@@ -480,12 +480,12 @@ nav.nav-imagenes {
 }
 
 .bloque-texto p {
-  margin-bottom: 1.5em; /* Aumenta el espacio entre párrafos */
+  margin-bottom: 3em; /* Aumenta el espacio entre párrafos */
   line-height: 1.7;     /* Mejora la legibilidad */
 }
 
 @media (max-width: 600px) {
   .bloque-texto p {
-    margin-bottom: 2em; /* Más espacio en pantallas pequeñas */
+    margin-bottom: 3.5em; /* Más espacio aún en pantallas pequeñas */
   }
 }
