@@ -432,3 +432,36 @@ nav.nav-imagenes {
 .nav-imagenes img:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 600px) {
+  .boton {
+    width: 220px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .boton1 {
+    top: 25%;
+  }
+
+  .boton2 {
+    top: 45%;
+  }
+
+  .boton3 {
+    top: 59%;
+  }
+}
+
+/* Fondo exclusivo para index.html */
+.fondo-celular {
+  background-image: url('imagenes/celular.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
