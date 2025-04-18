@@ -13,7 +13,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Autor", name: "autor", widget: "string" }
-      - { label: "Imagen destacada", name: "imagen", widget: "image" }
-      - { label: "Resumen", name: "resumen", widget: "text" }
-      - { label: "Contenido", name: "body", widget: "markdown" }
+      - { label: "Autor", name: "author", widget: "string" }
+      - { label: "Año", name: "year", widget: "string" }
+      - { label: "Género", name: "genre", widget: "string" }
+      - { label: "Imagen destacada", name: "image", widget: "image" }
+      - { label: "Reseña", name: "body", widget: "markdown" }
