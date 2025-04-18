@@ -465,3 +465,16 @@ nav.nav-imagenes {
   min-height: 100vh;
   width: 100%;
 }
+
+.fondo-celular::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('imagenes/celular.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
